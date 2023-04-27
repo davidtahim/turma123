@@ -13,26 +13,16 @@
         <td style="background:#ccc; text-align:center;">Distância</td>
         <td style="background:#ccc; text-align:center;">Custo</td>
         </tr>
-        <tr>
-        <td style="text-align:right;">50</td>
-        <td style="text-align:right;">5</td>
-        </tr>
-        <tr>
-        <td style="text-align:right;">100</td>
-        <td style="text-align:right;">10</td>
-        </tr>
-        <tr>
-        <td style="text-align:right;">150</td>
-        <td style="text-align:right;">15</td>
-        </tr>
-        <tr>
-        <td style="text-align:right;">200</td>
-        <td style="text-align:right;">20</td>
-        </tr>
-        <tr>
-        <td style="text-align:right;">250</td>
-        <td style="text-align:right;">25</td>
-        </tr>
+        <?php
+            $distancia = 50;
+            while ($distancia <= 250) {
+                echo "<tr>
+                      <td style=\"text-align:right;\">".$distancia."</td>
+                      <td style=\"text-align:right;\">".($distancia/10). "</td>  
+                      </tr>\n";
+            $distancia +=50;          
+            }
+        ?>
     </table>    
 </body>
 </html>
