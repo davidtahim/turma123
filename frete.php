@@ -8,30 +8,30 @@
     <link rel="stylesheet" href="../css/principal.css">
 </head>
 <body>
-    <table>
+    <table style="border:0px; padding: 3px;">
         <tr>
-        <td>Distância</td>
-        <td>Custo</td>
+        <td style="background:#ccc; text-align:center;">Distância</td>
+        <td style="background:#ccc; text-align:center;">Custo</td>
         </tr>
         <tr>
-        <td>50</td>
-        <td>5</td>
+        <td style="text-align:right;">50</td>
+        <td style="text-align:right;">5</td>
         </tr>
         <tr>
-        <td>100</td>
-        <td>10</td>
+        <td style="text-align:right;">100</td>
+        <td style="text-align:right;">10</td>
         </tr>
         <tr>
-        <td>150</td>
-        <td>15</td>
+        <td style="text-align:right;">150</td>
+        <td style="text-align:right;">15</td>
         </tr>
         <tr>
-        <td>200</td>
-        <td>20</td>
+        <td style="text-align:right;">200</td>
+        <td style="text-align:right;">20</td>
         </tr>
         <tr>
-        <td>250</td>
-        <td>25</td>
+        <td style="text-align:right;">250</td>
+        <td style="text-align:right;">25</td>
         </tr>
     </table>    
 </body>
