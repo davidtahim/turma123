@@ -1,0 +1,10 @@
+table {
+    border: 0px;
+}
+th {
+    background: #ccc;
+}
+td {
+    width: 150px;
+    text-align: center;
+}
